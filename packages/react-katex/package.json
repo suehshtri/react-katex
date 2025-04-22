@@ -1,6 +1,6 @@
 {
-  "name": "react-katex",
-  "version": "3.0.1",
+  "name": "@suehshtri/react-katex",
+  "version": "3.1.1-rc02",
   "description": "Display math in TeX with KaTeX and ReactJS",
   "keywords": [
     "react",
@@ -12,7 +12,7 @@
   "homepage": "https://github.com/talyssonoc/react-katex",
   "main": "dist/react-katex.js",
   "scripts": {
-    "build": "NODE_ENV=production swc ./src/index.jsx -o dist/react-katex.js",
+    "build": "swc ./src/index.jsx -o dist/react-katex.js",
     "test": "jest",
     "report-coverage": "jest && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src/**/*.jsx"
@@ -21,6 +21,10 @@
     "name": "Talysson",
     "email": "talyssonoc@gmail.com"
   },
+    "contributors": [
+	{"name": "Steve Suehs",
+	 "url": ""}
+    ],
   "repository": {
     "type": "git",
     "url": "git://github.com/talyssonoc/react-katex.git"

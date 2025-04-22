@@ -4,6 +4,10 @@
 
 > Display math expressions with [KaTeX](https://khan.github.io/KaTeX/) and React
 
+## Forked from talyssonoc/react-katex
+We are thankful for Talyssonoc's react-katex and would love to
+see these PR's folded back in. We understand life outside of GitHub and NPM.
+
 ## Installation
 
 ```sh

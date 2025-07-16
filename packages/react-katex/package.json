@@ -1,6 +1,6 @@
 {
   "name": "@suehshtri/react-katex",
-  "version": "3.1.2-rc01",
+  "version": "3.1.2",
   "description": "Display math in TeX with KaTeX and ReactJS",
   "keywords": [
     "react",
